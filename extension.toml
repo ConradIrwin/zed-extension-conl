@@ -1,0 +1,11 @@
+id = "conl"
+name = "CONL"
+version = "0.1.0"
+schema_version = 1
+authors = ["Conrad Irwin <conrad.irwin@gmail.com>"]
+description = "Syntax highlighting for CONL files"
+repository = "https://github.com/ConradIrwin/zed-extension-conl"
+
+[grammars.conl]
+repository = "https://github.com/ConradIrwin/tree-sitter-conl"
+commit = "3f7dc2d209b1055cd95be883321ec3afdb7b3da6"

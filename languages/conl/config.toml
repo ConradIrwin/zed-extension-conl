@@ -1,0 +1,4 @@
+name = "CONL"
+grammar = "conl"
+path_suffixes = ["conl"]
+line_comments = ["# "]
