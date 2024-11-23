@@ -1,0 +1,3 @@
+[submodule "grammars/conl"]
+	path = grammars/conl
+	url = https://github.com/ConradIrwin/tree-sitter-conl
