@@ -1,4 +1,4 @@
 (multiline_value
-  (multiline_indicator) @language
+  (multiline_hint) @language
   (multiline_content) @content
 )

@@ -8,4 +8,4 @@ repository = "https://github.com/ConradIrwin/zed-extension-conl"
 
 [grammars.conl]
 repository = "https://github.com/ConradIrwin/tree-sitter-conl"
-commit = "3f7dc2d209b1055cd95be883321ec3afdb7b3da6"
+commit = "eb1b98ed17837cf887dbd9b2f80ccda2f5f715e4"
