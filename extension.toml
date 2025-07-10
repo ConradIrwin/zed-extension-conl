@@ -3,12 +3,12 @@ name = "CONL"
 version = "1.0.0"
 schema_version = 1
 authors = ["Conrad Irwin <conrad.irwin@gmail.com>"]
-description = "Syntax highlighting for CONL files"
+description = "Syntax highlighting and LSP for CONL"
 repository = "https://github.com/ConradIrwin/zed-extension-conl"
 
 [grammars.conl]
 repository = "https://github.com/ConradIrwin/tree-sitter-conl"
-commit = "eb1b98ed17837cf887dbd9b2f80ccda2f5f715e4"
+commit = "32a79438641256e7290f154d0afeaf4d6b2d5b36"
 
 [language_servers.conl-lsp]
 name = "conl-lsp"
