@@ -8,7 +8,7 @@ repository = "https://github.com/ConradIrwin/zed-extension-conl"
 
 [grammars.conl]
 repository = "https://github.com/ConradIrwin/tree-sitter-conl"
-commit = "32a79438641256e7290f154d0afeaf4d6b2d5b36"
+commit = "8ee41b7b58184bcb4420b463d656ce269da25380"
 
 [language_servers.conl-lsp]
 name = "conl-lsp"
