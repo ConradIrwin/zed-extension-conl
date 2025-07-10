@@ -9,3 +9,7 @@ repository = "https://github.com/ConradIrwin/zed-extension-conl"
 [grammars.conl]
 repository = "https://github.com/ConradIrwin/tree-sitter-conl"
 commit = "eb1b98ed17837cf887dbd9b2f80ccda2f5f715e4"
+
+[language_servers.conl-lsp]
+name = "conl-lsp"
+languages = ["CONL"]
