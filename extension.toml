@@ -1,6 +1,6 @@
 id = "conl"
 name = "CONL"
-version = "2.0.0"
+version = "2.0.1"
 schema_version = 1
 authors = ["Conrad Irwin <conrad.irwin@gmail.com>"]
 description = "Syntax highlighting and LSP for CONL"
