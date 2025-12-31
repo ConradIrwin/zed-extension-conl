@@ -1,5 +1,5 @@
 use std::fs;
-use zed_extension_api::{self as zed, LanguageServerId, Result};
+use zed_extension_api::{self as zed, GithubReleaseOptions, LanguageServerId, Result};
 
 struct ConlExtension {
     cached_binary_path: Option<String>,
@@ -20,8 +20,13 @@ impl ConlExtension {
             &zed::LanguageServerInstallationStatus::CheckingForUpdate,
         );
 
-        let release =
-            zed::github_release_by_tag_name("ConradIrwin/conl-lsp", "build-20250706-040628")?;
+        let release = zed::latest_github_release(
+            "ConradIrwin/conl-lsp",
+            GithubReleaseOptions {
+                require_assets: true,
+                pre_release: false,
+            },
+        )?;
 
         let (platform, arch) = zed::current_platform();
         let asset_name = match (platform, arch) {
